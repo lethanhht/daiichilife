@@ -1,0 +1,86 @@
+body {
+  overflow-x: hidden;
+}
+.icon-daiichi {
+  width: 150px;
+  height: 70px;
+}
+.navbar .nav-item.active {
+  border: 1px red solid;
+  border-radius: 0.4rem;
+}
+.navbar .nav-link {
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 1, 1.5);
+}
+
+.carousel-item {
+  height: 450px;
+}
+.carousel-image-1 {
+  background: url("../img/header9.jpg");
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url("../img/header7.jpg");
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url("../img/header3.jpg");
+  background-size: cover;
+}
+#main-footer {
+  background: white;
+  color: black;
+}
+.about-img {
+  margin-top: -50px;
+  min-width: 250px;
+  min-height: 250px;
+}
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/Sea.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.dark-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+#home-heading .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+.list-info {
+  list-style-type: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.list-link {
+  list-style-type: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.has-text-white {
+  color: white;
+}
+#list-link-item {
+  padding-top: 20px;
+}
